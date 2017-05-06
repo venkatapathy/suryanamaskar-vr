@@ -17,31 +17,31 @@
   <a-scene>
     <a-assets>
       <img id="groundTexture" src="lawn.png">
-      <img id="my-image" src="postures/posture1.png">
+      <img id="my-image" src="postures/posture1_sir.png">
 
       <!-- ... -->
     </a-assets>
 
     <a-entity position="0 0 -2">
-    <a-entity position="-.75 2.2 -0.154">
-      <!--with sir
+    <a-entity position="2.5 2.2 -1.154">
+      <!--with sir-->
       <a-box color="grey" depth=".05" height="4" width="4" ></a-box>
       <a-text value="Pranamasana" position="-1 1.5 0.5"></a-text>
-      -->
       
-      <a-text value="Pranamasana" position="0 0 0.5" color="tomato"></a-text>
+      <!--silouttes
+      <a-text value="Pranamasana" position="0 0 0.5" color="tomato"></a-text>-->
     </a-entity>
-    <!-- with sir
+    <!-- with sir-->
       <a-box color="tomato" depth=".05" height="2.1" width="1" rotation="-90 45 0" position="-0.494 0.046 -0.665"></a-box>
       <a-image src="#my-image" position="0 1 0" height="2"></a-image>
-      -->
-      
-      <a-image src="#my-image" position="0 1 0" height="2"></a-image>
+    
+      <!--silouttes
+      <a-image src="#my-image" position="0 1 0" height="2"></a-image>-->
       <a-sky color="#00BFFF"></a-sky>
     </a-entity>
 
     <!-- ... -->
-   <!-- <a-plane src="#groundTexture" rotation="-90 0 0" width="30" height="30"></a-plane>-->
+    <a-plane src="#groundTexture" rotation="-90 0 0" width="30" height="30"></a-plane>
 
     <!-- ... -->
 
